@@ -1,0 +1,19 @@
+{
+    "name": "siler-examples/single-file-swoole",
+    "description": "HTTP API within Swoole in a single file",
+    "type": "project",
+    "require": {
+        "leocavalcante/siler": "dev-master"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^4.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

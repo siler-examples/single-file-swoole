@@ -1,0 +1,19 @@
+POST http://localhost:8000/todos
+
+{"body": "foo"}
+
+###
+
+GET http://localhost:8000/todos
+
+###
+
+PUT http://localhost:8000/todos/5e56af33b7ea7
+
+{"status": "done"}
+
+###
+
+DELETE http://localhost:8000/todos/5e56af33b7ea7
+
+###

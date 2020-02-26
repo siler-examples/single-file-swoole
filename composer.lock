@@ -1,0 +1,148 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "5da7deed2ae623a781830db753877616",
+  "packages": [
+    {
+      "name": "leocavalcante/siler",
+      "version": "dev-master",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/leocavalcante/siler.git",
+        "reference": "c956d95cd5d0308ed8234ecbeb9da175f6bc5b8c"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/leocavalcante/siler/zipball/c956d95cd5d0308ed8234ecbeb9da175f6bc5b8c",
+        "reference": "c956d95cd5d0308ed8234ecbeb9da175f6bc5b8c",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.3"
+      },
+      "require-dev": {
+        "cboden/ratchet": "^0.4.1",
+        "cocur/slugify": "^3.2",
+        "gabordemooij/redbean": "^5.4",
+        "google/protobuf": "^3.11",
+        "grpc/grpc": "^1.25",
+        "laminas/laminas-diactoros": "^2.2",
+        "laminas/laminas-httphandlerrunner": "^1.1",
+        "laminas/laminas-stratigility": "^3.2",
+        "monolog/monolog": "^2.0",
+        "phpunit/phpunit": "^8.4",
+        "squizlabs/php_codesniffer": "^3.5",
+        "swiftmailer/swiftmailer": "^6.2",
+        "swoole/ide-helper": "^4.4",
+        "textalk/websocket": "^1.2",
+        "twig/twig": "^3.0",
+        "vimeo/psalm": "^3.7",
+        "vlucas/phpdotenv": "^3.6",
+        "webonyx/graphql-php": "^0.13"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Siler\\": "src/"
+        },
+        "files": [
+          "src/Container/Container.php",
+          "src/Diactoros/Diactoros.php",
+          "src/Dotenv/Dotenv.php",
+          "src/Encoder/Json.php",
+          "src/Env/Env.php",
+          "src/File/File.php",
+          "src/Functional/Functional.php",
+          "src/Functional/Monad/Monad.php",
+          "src/GraphQL/GraphQL.php",
+          "src/Grpc/Grpc.php",
+          "src/Http/Http.php",
+          "src/Http/Request.php",
+          "src/Http/Response.php",
+          "src/HttpHandlerRunner/HttpHandlerRunner.php",
+          "src/Mail/SwiftMailer.php",
+          "src/Monolog/Monolog.php",
+          "src/Prelude/Str.php",
+          "src/Prelude/Tuple.php",
+          "src/Ratchet/Ratchet.php",
+          "src/Result/Result.php",
+          "src/Route/Route.php",
+          "src/Stratigility/Stratigility.php",
+          "src/Swoole/Swoole.php",
+          "src/Twig/Twig.php",
+          "src/Siler.php",
+          "src/facades.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "leocavalcante",
+          "email": "lc@leocavalcante.com"
+        }
+      ],
+      "description": "Siler is a set of general purpose high-level abstractions aiming an API for declarative programming in PHP.",
+      "keywords": [
+        "api",
+        "framework",
+        "functional",
+        "graphql",
+        "micro",
+        "router",
+        "swoole"
+      ],
+      "time": "2020-02-22T16:09:11+00:00"
+    }
+  ],
+  "packages-dev": [
+    {
+      "name": "swoole/ide-helper",
+      "version": "4.4.14",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/swoole/ide-helper.git",
+        "reference": "d52d22addfdc877de807cc85e2d8ad8a3b17ad17"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/swoole/ide-helper/zipball/d52d22addfdc877de807cc85e2d8ad8a3b17ad17",
+        "reference": "d52d22addfdc877de807cc85e2d8ad8a3b17ad17",
+        "shasum": ""
+      },
+      "require-dev": {
+        "guzzlehttp/guzzle": "~6.5.0",
+        "squizlabs/php_codesniffer": "~3.5.0",
+        "symfony/filesystem": "~4.3.0",
+        "zendframework/zend-code": "~3.3.0"
+      },
+      "type": "library",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "Apache-2.0"
+      ],
+      "authors": [
+        {
+          "name": "Team Swoole",
+          "email": "team@swoole.com"
+        }
+      ],
+      "description": "IDE help files for Swoole.",
+      "time": "2019-12-30T05:31:26+00:00"
+    }
+  ],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": {
+    "leocavalcante/siler": 20
+  },
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": [],
+  "platform-dev": []
+}

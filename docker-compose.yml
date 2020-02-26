@@ -1,0 +1,8 @@
+version: '3'
+services:
+  single_file_swoole:
+    image: leocavalcante/dwoole:dev
+    volumes:
+      - ./:/app
+    ports:
+      - 8000:8000
